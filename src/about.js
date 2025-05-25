@@ -25,7 +25,7 @@ function loadAbout() {
     temp.main.appendChild(diagBox);
 
     const item1 =  temp.dialogue.cloneNode();
-    item1.innerHTML = "<h1>A... dog?</h1> <p>Well, this dog apparently is apparently the creator of everything used here, so thanks.</p>";
+    item1.innerHTML = "<h1>A... dog? Creator??</h1> <p>Well, this dog is apparently the creator of everything used here, so thanks very much.</p>";
 
     const item2 = temp.dialogue.cloneNode();
     item2.innerHTML = "<h1>Q5U4EX7YY2E9N, Funder</h1> <p>(63) 87092317-7426532</p> <p>0plCJVv3YZBSpecCWLW7@1nCTGkT</p>";
