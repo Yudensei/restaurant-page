@@ -75,6 +75,7 @@ nav > button:hover::before {
     grid-row: 1 / 2;
     height: 90%;
     align-self: self-end;
+    z-index: 1;
 }
 
 #greeting {
@@ -91,6 +92,8 @@ nav > button:hover::before {
     border-top: 0;
     padding: 20px;
     margin-bottom: 8px;
+    display: grid;
+    row-gap: 20px;
 }
 
 .dialogue-box {
