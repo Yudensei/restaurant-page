@@ -1,10 +1,10 @@
 import * as temp from "./template.js";
 import { loadMenu } from "./menu.js";
+import { loadReviews } from "./reviews.js";
 
-
-import seam from "./seam.png";
-import seamBg from "./seam-bg.png";
-import susie from "./susie_sweatdrop.png";
+import seam from "./images/seam.png";
+import seamBg from "./images/seam-bg.png";
+import susie from "./images/susie_sweatdrop.png";
 import "./style.css";
 
 const content = document.querySelector("#content");
@@ -19,6 +19,7 @@ navigation.addEventListener("click", (e) => {
     
     if (e.target.id === "home") loadHome();
     else if (e.target.id === "menu") loadMenu();
+    else if (e.target.id === "reviews") loadReviews();
 })
 
 function loadHome() {

@@ -4,7 +4,7 @@
 }
 
 p {
-    margin: 8px 0;
+    margin: 0;
 }
 
 body {
@@ -40,7 +40,7 @@ nav > button:hover {
 
 nav > button:hover::before {
     content: "";
-    background-image: url("red-soul.png");
+    background-image: url("./images/red-soul.png");
     background-size: 18px 18px;
     display: inline-block;
     height: 18px;
@@ -84,6 +84,8 @@ nav > button:hover::before {
     border: 6px solid white;
     border-top: 0;
     padding: 20px;
+    display: grid;
+    gap: 8px;
 }
 
 #main {
@@ -99,6 +101,8 @@ nav > button:hover::before {
 .dialogue-box {
     border: 6px solid white;
     padding: 20px;
+    display: grid;
+    gap: 8px;
 }
 
 .comment {
@@ -111,4 +115,9 @@ nav > button:hover::before {
 
 .comment-portrait {
     height: 40px;
+}
+
+.by {
+    align-self: self-end;
+    justify-self: self-end;
 }

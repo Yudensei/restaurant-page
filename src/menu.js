@@ -1,6 +1,6 @@
 import * as temp from "./template.js";
-import swatch from "./swatch.png";
-import swatchBg from "./swatch-bg.png";
+import swatch from "./images/swatch.png";
+import swatchBg from "./images/swatch-bg.png";
 
 
 
